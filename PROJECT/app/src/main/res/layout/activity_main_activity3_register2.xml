@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/projectback1"
+    tools:context=".MainActivity3_register">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="307dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="85dp"
+        android:text="Create Account !!"
+        android:textAllCaps="false"
+        android:textColor="#464946"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="70dp"
+        android:drawableLeft="@drawable/ic_action_email"
+
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#4F544F"
+        android:textColorHighlight="#4F544F"
+        android:textColorHint="#4F544F"
+        android:textColorLink="#4F544F" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#4F544F"
+        android:textColorHighlight="#4F544F"
+        android:textColorHint="#4F544F"
+        android:textColorLink="#4F544F" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#4F544F"
+        android:textColorHighlight="#4F544F"
+        android:textColorHint="#4F544F"
+        android:textColorLink="#4F544F" />
+
+    <EditText
+        android:id="@+id/editTextbday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:drawableLeft="@drawable/ic_action_bday"
+
+        android:ems="10"
+        android:hint="Birthday"
+        android:inputType="date"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#4F544F"
+        android:textColorHighlight="#4F544F"
+        android:textColorHint="#4F544F"
+        android:textColorLink="#4F544F" />
+
+    <Button
+        android:id="@+id/register2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextbday"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#464946"
+        android:shadowRadius="4"
+        android:text="register"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10dp"
+        app:rippleColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/register2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="168dp"
+        android:text="have an account ?"
+        android:textColor="#464946"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/login2"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/register2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="88dp"
+        android:text="log in"
+        android:textAllCaps="false"
+        android:textColor="#464946"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

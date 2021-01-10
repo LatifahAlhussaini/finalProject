@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C3C3"
+    android:orientation="vertical"
+    tools:context=".MainActivity_Main">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00E4C3C3" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV1"
+        android:layout_width="match_parent"
+        android:layout_height="530dp" />
+
+    <Button
+        android:id="@+id/gotocharacter"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#90464946"
+        android:shadowRadius="4"
+        android:text="Cartoon characters"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>

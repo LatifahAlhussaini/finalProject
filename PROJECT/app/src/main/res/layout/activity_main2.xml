@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/projectback1"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="233dp"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/login" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:scrollHorizontally="false"
+        android:shadowColor="#9EFFFFFF"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="cartoon"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#4F544F"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#464946"
+        android:shadowRadius="4"
+        android:text="register now"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10dp"
+        app:rippleColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/register"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="168dp"
+        android:text="have an account ?"
+        android:textColor="#464946"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/register"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="88dp"
+        android:text="log in"
+        android:textAllCaps="false"
+        android:textColor="#464946"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

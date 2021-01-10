@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pag1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/projectback1"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:scrollHorizontally="false"
+        android:shadowColor="#9EFFFFFF"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="cartoon"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#4F544F"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/loading"
+        android:layout_width="457dp"
+        android:layout_height="357dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="left"
+        android:layout_marginStart="-136dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="90dp"
+        android:scaleType="matrix"
+        android:src="@drawable/loading" />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="267dp"-->
+<!--        android:layout_height="96dp"-->
+<!--        android:layout_below="@+id/textView2"-->
+<!--        android:layout_marginTop="53dp"-->
+<!--        android:layout_weight="5"-->
+<!--        android:ellipsize="marquee"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+
+<!--        android:scrollHorizontally="false"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="textmoving textmoving textmoving textmoving textmoving textmoving textmoving textmoving textmoving textmoving "-->
+<!--        android:textColor="#fff" />-->
+</RelativeLayout>
